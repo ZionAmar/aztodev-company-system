@@ -1,0 +1,21 @@
+# AZToDev private upload — never commit secrets or junk
+node_modules/
+.expo/
+.expo-check/
+dist/
+dist-web/
+dist-deploy/
+coverage/
+uploads/
+*.log
+.env
+.env.*
+!.env.example
+config.env
+**/credentials.json
+**/google-services.json
+**/*.pem
+**/*.p12
+**/*.key
+.DS_Store
+Thumbs.db
